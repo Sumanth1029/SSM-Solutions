@@ -7,21 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-@import url(//db.onlinewebfonts.com/c/070f3a2e3e2fd3473a3cb3e97398122c?family=Segan);
-@font-face {
-  font-family: "Segan";
-  src: url("//db.onlinewebfonts.com/t/070f3a2e3e2fd3473a3cb3e97398122c.eot");
-  src: url("//db.onlinewebfonts.com/t/070f3a2e3e2fd3473a3cb3e97398122c.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/070f3a2e3e2fd3473a3cb3e97398122c.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/070f3a2e3e2fd3473a3cb3e97398122c.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/070f3a2e3e2fd3473a3cb3e97398122c.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/070f3a2e3e2fd3473a3cb3e97398122c.svg#Segan")
-      format("svg");
-}
+@import url('http://fonts.cdnfonts.com/css/segan');
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
