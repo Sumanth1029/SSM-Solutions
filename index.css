@@ -7,18 +7,34 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@import url(//db.onlinewebfonts.com/c/070f3a2e3e2fd3473a3cb3e97398122c?family=Segan);
+@font-face {
+  font-family: "Segan";
+  src: url("//db.onlinewebfonts.com/t/070f3a2e3e2fd3473a3cb3e97398122c.eot");
+  src: url("//db.onlinewebfonts.com/t/070f3a2e3e2fd3473a3cb3e97398122c.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/070f3a2e3e2fd3473a3cb3e97398122c.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/070f3a2e3e2fd3473a3cb3e97398122c.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/070f3a2e3e2fd3473a3cb3e97398122c.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/070f3a2e3e2fd3473a3cb3e97398122c.svg#Segan")
+      format("svg");
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.imageClass{
+.imageClass {
   margin-bottom: 20px;
   margin-top: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.centerClass{
+.centerClass {
   margin: 0 auto;
 }
 .blackBackground {
@@ -67,7 +83,6 @@ code {
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
-
 }
 a:visited,
 a:active,
@@ -75,11 +90,11 @@ a:focus {
   text-decoration: none;
 }
 
-.a1:hover{
+.a1:hover {
   text-decoration: none !important;
   outline: none !important;
-  
-  color:#a87e00;
+
+  color: #a87e00;
   /* border: 1px solid #ffbf00; */
 }
 a {
@@ -113,32 +128,31 @@ a {
   margin-bottom: 8px;
 }
 
-.btn-prim{
+.btn-prim {
   /* background-color: rgb(0, 0, 0); */
   border-radius: 10px;
   /* border-color: rgb(63, 63, 63); */
 }
-.btn-prim:hover{
+.btn-prim:hover {
   /* background-color: rgb(0, 0, 0); */
   /* border-color:  #ffbf00; */
- 
 }
-.hoverClass{
-  transition: transform .2s;
+.hoverClass {
+  transition: transform 0.2s;
   padding-top: 8px;
 }
-.hoverClass:hover{
+.hoverClass:hover {
   /* color:#ffbf00; */
   transform: scale(1.1);
 }
-#first{
+#first {
   margin-left: 3px;
 }
 
-td{
-border: none;
+td {
+  border: none;
 }
 
-.contact-card{
+.contact-card {
   padding-left: 50px;
 }
