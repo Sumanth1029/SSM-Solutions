@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.imageClass{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.centerClass{
+  margin: 0 auto;
+}
+.blackBackground {
+  background-color: black;
+  color: white;
+}
+.navbar-inverse {
+  background-color: black;
+}
+.left-align {
+  text-align: left;
+}
+.newFont1 {
+  font-family: "Segan", sans-serif;
+  font-size: 2.4rem;
+}
+
+.newFont2 {
+  font-family: "Segan", sans-serif;
+  font-size: 2.4rem;
+}
+
+.newFont3 {
+  font-family: "Segan", sans-serif;
+  font-size: 2rem;
+  color: #979797;
+}
+
+.newFont4 {
+  font-family: "Segan", sans-serif;
+  font-size: 1.7rem;
+  color: #979797;
+}
+
+.newFont5 {
+  font-family: "Segan", sans-serif;
+  font-size: 1.7rem;
+  color: #b3b3b3;
+}
+
+.cardStyle {
+  border-color: #a87e00;
+  border-style: double;
+  border-width: 5px;
+  min-width: 400px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+a:visited,
+a:active,
+a:focus {
+  text-decoration: none;
+}
+
+.a1:hover{
+  text-decoration: none !important;
+  outline: none !important;
+  
+  color:#a87e00;
+  /* border: 1px solid #ffbf00; */
+}
+a {
+  color: inherit;
+}
+/* .bubble {
+  border-radius: 40px;
+  margin: 8px;
+  padding: 4px;
+  background-color: rgb(32, 32, 32);
+  text-decoration: none;
+  background: rgb(0,3,255);
+  background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+  
+} */
+.line {
+  width: 100px;
+  height: 0px;
+  margin: 0 auto;
+  border-top: 5px solid #a87e00;
+  border-radius: 50px;
+  margin-bottom: 8px;
+}
+
+.line2 {
+  width: 300px;
+  height: 0px;
+  margin: 0 auto;
+  border-top: 5px solid #a87e00;
+  border-radius: 50px;
+  margin-bottom: 8px;
+}
+
+.btn-prim{
+  /* background-color: rgb(0, 0, 0); */
+  border-radius: 10px;
+  /* border-color: rgb(63, 63, 63); */
+}
+.btn-prim:hover{
+  /* background-color: rgb(0, 0, 0); */
+  /* border-color:  #ffbf00; */
+ 
+}
+.hoverClass{
+  transition: transform .2s;
+  padding-top: 8px;
+}
+.hoverClass:hover{
+  /* color:#ffbf00; */
+  transform: scale(1.1);
+}
+#first{
+  margin-left: 3px;
+}
+
+td{
+border: none;
+}
+
+.contact-card{
+  padding-left: 50px;
+}
