@@ -9,8 +9,16 @@ body {
 
 @import url('http://fonts.cdnfonts.com/css/segan');
 
+.contentclass{
+  padding: 19px;
+}
+.colclass{
+  height: 90px;
+}
 
-
+.borderless{
+  border:hidden;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
