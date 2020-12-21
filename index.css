@@ -81,7 +81,9 @@ code {
   font-size: 1.7rem;
   color: #b3b3b3;
 }
-
+#home{
+  margin-top: 50px; 
+}
 .cardStyle{
   border-color: #a87e00;
   border-style: double;
@@ -92,16 +94,6 @@ code {
   text-align: center;
 }
 
-.cardStyle1{
-  border-color: #a87e00;
-  border-style: double;
-  border-width: 5px;
-  min-width: 400px;
-  max-width: 900px;
-  margin: 0 auto;
-  margin-top: 50px; 
-  text-align: center;
-}
 a:visited,
 a:active,
 a:focus {
