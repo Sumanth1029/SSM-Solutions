@@ -82,7 +82,7 @@ code {
   color: #b3b3b3;
 }
 
-.cardStyle {
+.cardStyle{
   border-color: #a87e00;
   border-style: double;
   border-width: 5px;
@@ -99,7 +99,8 @@ code {
   min-width: 400px;
   max-width: 900px;
   margin: 0 auto;
-  margin-top: 50px;  text-align: center;
+  margin-top: 50px; 
+  text-align: center;
 }
 a:visited,
 a:active,
