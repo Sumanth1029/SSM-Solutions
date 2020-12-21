@@ -19,7 +19,7 @@
 
 <body class="blackBackground">
   <div>
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" style="float: left" data-toggle="collapse"
@@ -28,28 +28,21 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">SSM-SOLUTIONS</a>
+          <a class="navbar-brand" href="#home">SSM-SOLUTIONS</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="#">Home</a></li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#About">About Us</a></li>
+            <li><a href="#services">Services</a></li>
           </ul>
         </div>
       </div>
     </nav>
+    
 
     <div class="container">
-      <div class="cardStyle">
+      <div class="cardStyle1" id="home">
         <img src="logo.png" class="img-responsive imageClass" alt="Logo" width="50%" height="auto" />
         <div class="newFont2">SSM SOLUTIONS</div>
         <br />
@@ -105,14 +98,14 @@
           &nbsp;&nbsp;&nbsp;&nbsp;+91 99649 44684
           <br />
           <br />
-          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <i class="fa fa-envelope" id="About" aria-hidden="true"></i>
           &nbsp;&nbsp;&nbsp;sgbasavaraju@gmail.com
         </div>
         <br />
       </div>
       <br />
 
-      <div class="cardStyle">
+      <div class="cardStyle" >
         <div class="newFont2">
           <br />
           About us<br />
@@ -141,7 +134,7 @@
       </div>
       <br />
 
-      <div class="cardStyle">
+      <div class="cardStyle" id="services">
         <br />
         <div class="newFont2">Services Offered</div>
 
