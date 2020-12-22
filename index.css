@@ -28,7 +28,9 @@ code {
   0% {}
     50% {transform: scale(0.95)}
 }
-
+.marleft{
+  margin-left: 25%;
+}
 .imageClass {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -124,16 +126,17 @@ a {
   width: 100px;
   height: 0px;
   margin: 0 auto;
-  border-top: 5px solid #a87e00;
+  border-top: 3px solid #a87e00;
   border-radius: 50px;
   margin-bottom: 8px;
+  margin-top: 3px;
 }
 
 .line2 {
   width: 300px;
   height: 0px;
   margin: 0 auto;
-  border-top: 5px solid #a87e00;
+  border-top: 3px solid #a87e00;
   border-radius: 50px;
   margin-bottom: 8px;
 }
